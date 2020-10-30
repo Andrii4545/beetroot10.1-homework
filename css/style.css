@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-color: rgb(70,79,84);
+}
+.content{
+    width: 60%;
+    height: 80%;
+    margin: auto;
+}
+.head{
+    background-color: rgb(24,24,24);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+    width: 50%;
+}
+.icon{
+    background-color: rgb(248,190,44);
+    width: 40%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    z-index: 2;
+}
+.hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    height: 2px;
+    background: #7a7979;
+}
+.title{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: small;
+    color: darkgray;
+    opacity: 0.7;
+}
+.title1{
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.text-header{
+
+    font-size: 40px;
+    font-weight: bold;
+}
+.header1{
+    font-family: 'Playfair Display', serif;
+    color: rgb(217,217,217);
+    margin: 0;
+}
+.main{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.time{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.text{
+    overflow: hidden;
+    position: relative;
+    top: -50px;
+    z-index: 1;
+    background-color: white;
+    height: 100%;
+    min-width: 500px;
+}
+.alltext{
+
+    margin: 60px;
+}
+.date{
+    color: rgb(217,217,217);
+}
+.fas{
+    margin-left: 5px;
+}
+p{
+    margin-top: 20px;
+}
+.fas:hover{
+    cursor: pointer;
+    color: white;
+}
+.line{
+    height: 15px;
+    width: 1px;
+    background: white;
+    margin-left: 5px;
+    animation: blink 0.7s infinite;
+}
